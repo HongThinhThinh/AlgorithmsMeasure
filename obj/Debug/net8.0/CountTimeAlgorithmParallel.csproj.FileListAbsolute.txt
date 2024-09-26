@@ -1,0 +1,15 @@
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\bin\Debug\net8.0\CountTimeAlgorithmParallel.exe
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\bin\Debug\net8.0\CountTimeAlgorithmParallel.deps.json
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\bin\Debug\net8.0\CountTimeAlgorithmParallel.runtimeconfig.json
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\bin\Debug\net8.0\CountTimeAlgorithmParallel.dll
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\bin\Debug\net8.0\CountTimeAlgorithmParallel.pdb
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\CountTimeAlgorithmParallel.GeneratedMSBuildEditorConfig.editorconfig
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\CountTimeAlgorithmParallel.AssemblyInfoInputs.cache
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\CountTimeAlgorithmParallel.AssemblyInfo.cs
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\CountTimeAlgorithmParallel.csproj.CoreCompileInputs.cache
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\CountTimeAlgorithmParallel.sourcelink.json
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\CountTimeAlgorithmParallel.dll
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\refint\CountTimeAlgorithmParallel.dll
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\CountTimeAlgorithmParallel.pdb
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\CountTimeAlgorithmParallel.genruntimeconfig.cache
+D:\destop\FPT\ki7\PRN221\CountTimeAlgorithmParallel\obj\Debug\net8.0\ref\CountTimeAlgorithmParallel.dll
