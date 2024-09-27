@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 class Program
 {
     static int listSize = 500000;  // Full dataset size for all algorithms
-    static int numParts = 10;      // Number of parts to divide the list into for parallel sorting
-    static int numRuns = 10;       // Number of runs for benchmarking
+    static int numParts = 100;      // Number of parts to divide the list into for parallel sorting
+    static int numRuns = 5;       // Number of runs for benchmarking
     static Random random = new Random();
 
     static async Task Main()
@@ -20,7 +20,7 @@ class Program
 
             // Create a large array to be partitioned
             var array = CreateRandomList(listSize);
-
+            string[] algorithmNames = { "Quick Sort", "Merge Sort", "Shell Sort", "Selection Sort", "Optimized Bubble Sort" }; // Names of the algorithms
             // Store tasks for each sorting algorithm
             Task<double>[] tasks = new Task<double>[5];
 
@@ -37,7 +37,8 @@ class Program
             // Determine the winner of the current run based on the shortest time
             int winnerIndex = Array.IndexOf(times, times.Min());
             wins[winnerIndex]++;
-            Console.WriteLine($"Winner of Run {run + 1}: Algorithm {winnerIndex + 1} with {times[winnerIndex]} ms");
+
+            Console.WriteLine($"Winner of Run {run + 1}: {algorithmNames[winnerIndex]} with {times[winnerIndex]:F2} ms");
         }
 
         // Display the total wins for each algorithm after all runs
@@ -46,7 +47,7 @@ class Program
         Console.WriteLine($"Merge Sort: {wins[1]} wins");
         Console.WriteLine($"Shell Sort: {wins[2]} wins");
         Console.WriteLine($"Selection Sort: {wins[3]} wins");
-        Console.WriteLine($"Optimized Bubble Sort: {wins[4]} wins");
+        Console.WriteLine($"Bubble Sort: {wins[4]} wins");
     }
 
     static double ParallelSortAndMeasureTime(int[] array, Action<int[], int, int> sortAlgorithm)

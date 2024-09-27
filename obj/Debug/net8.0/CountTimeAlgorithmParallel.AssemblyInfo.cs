@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CountTimeAlgorithmParallel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23014de5fd04bc147bf6fb6fe006325faf83874b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fe98ce0fb85b3d0f20a2e5608696a35449cc508")]
 [assembly: System.Reflection.AssemblyProductAttribute("CountTimeAlgorithmParallel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CountTimeAlgorithmParallel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
